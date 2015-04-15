@@ -1,0 +1,35 @@
+Development Process
+===================
+
+Introduction: A summary of what was done and how to take it further.
+
+The strategy here was to be as quick and dirty as possible.
+The process is as follows:
+
+1.  Copied current HubZero default style in file system using the command line. 
+    The inbuilt template copy in the web GUI seems to be broken.
+2.  Verified as working after forcing discovery.
+3.  Downloaded by sftp.
+4.  Zipped and reloaded/installed as a template via the web GUI.
+5.  Debugged the process by adjusting the entries in the manifest file. Lots of stuff are broken here.
+6.  When verified as working committed to github.
+7.  Added an alveo.css style sheet to the template package with an entry in the manifest.
+8.  Added to a line to load the css in the index.php
+9.  Reloaded and reinstalled template after deleting previous attempts.
+10. Added over-rides to the styles in main.css. Used the in-browser debugger 
+    and the web GUI's facility for editing the css and php files in the template.
+
+Committed to github when satisfied.
+
+To build another:
+
+1.  Checkout from GitHub.
+2.  Rename alveo.css to correspond to new site name, say custom.css.
+3.  Adjust Joomla manifest file with new file name.
+4.  Replace old artwork with any new art artwork.
+5.  Adjust Joomla manifest file to refer to new files.
+6.  Export from GitHub and zip directory with new name.
+7.  Install into HubZero test site and verify as working.
+8.  Adjust custom.css in Joomla web admin GUI until satisfied.
+9.  Copy and paste altered files back into working copy and commit.
+10. Push into new GitHub repo.

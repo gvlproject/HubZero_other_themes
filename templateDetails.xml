@@ -40,6 +40,7 @@
 		<filename>css/print.css</filename>
 		<filename>css/mobile.css</filename>
 		<filename>css/offline.css</filename>
+		<filename>css/alveo.css</filename>
 		
 		<filename>css/browser/ie7.css</filename>
 		<filename>css/browser/ie8.css</filename>
@@ -79,6 +80,7 @@
 		<filename>html/mod_collect/mod_collect.css</filename>
 		<filename>html/mod_reportproblems/mod_reportproblems.css</filename>
 		<filename>html/mod_search/default.php</filename>
+
 		<filename>html/plg_groups_announcements/announcements.css</filename>
 		<filename>html/plg_hubzero_autocompleter/autocompleter.css</filename>
 		<filename>html/system/css/introduction.css</filename>
@@ -109,6 +111,7 @@
 		<filename>images/logos/hubzero-logo-old.png</filename>
 		<filename>images/logos/hubzero-logo.png</filename>
 		<filename>images/logos/yourhub.png</filename>
+		<filename>images/logos/hcsvlab.png</filename>
 		
 		<filename>images/overlay/close.png</filename>
 		<filename>images/overlay/closebox.png</filename>
