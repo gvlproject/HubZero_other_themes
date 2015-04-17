@@ -31,3 +31,8 @@ and then zip the directory and its contents into the file mod_alveofooter.
 Use the Joomla administrator interface for extension management to upload and install the zip file.
 Any previous versions need to be deleted first.
 Then use the module manager to publish the alveofooter in the footer block of the page at position 3.
+
+## Distribution
+
+Packaged versions of the template and module
+can be downloaded from the distribution directory.
