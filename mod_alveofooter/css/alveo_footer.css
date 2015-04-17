@@ -1,3 +1,94 @@
+
 #alveo-footer {
+    min-height: 100px;
 	background: white;
+    font-size: 0.9em;
+	color: #999;
+    text-shadow: none;
+	padding: 20px 0 10px 0; 
+	margin: 0 30px; /* Ensure the footer has the same margins as the rest of the page. */
+	clear: both; 
+	border-top: 1px dotted #CCC; 
 }
+
+#alveo-footer img {
+  vertical-align: middle;
+  border: 0;
+  margin: 5px 5px 5px 5px;
+}
+
+/* Control the global logo image scaling. */
+/* Individual logos sometimes are tweak-scaled by a width style in the img tag. */
+.alveo-img-wrapper {
+  width: 70%;
+  margin: 0 auto; /* Allow the dive to centre in its containing div. */
+  text-align: center;
+}
+
+#alveo-footer a {
+  color: rgb(0, 171, 255);
+  border-bottom: 1px dotted color: rgb(0, 171, 255);
+  text-shadow: none;
+}
+
+#alveo-footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.alveo-sponsor {
+}
+
+/* Contain the acknowledgement text so it is not too wide for readability. */
+.alveo-acknowledgement {
+  text-align: left;
+  width: 70%;
+}
+
+.alveo-sponsor img{
+}
+
+.alveo-collaborators {
+}
+
+/* Convert the coloured logos into grey logos. */
+.alveo-collaborators img {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.alveo-row {
+  clear: both;
+  /* Needed to ensure that first row is not set to zero */
+  /* If it is the contents overflow the containing div */
+  min-height: 100px; 
+}
+
+.alveo-col {
+  text-align: center; 
+  float: left;
+  position: relative;
+  min-height: 1px;
+  /* Setting the padding to zero ensures we can fit the column divs 
+  into the row without wrapping. */
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.alveo-col-md-2 {
+ width: 16.666666666666664%;
+}
+
+.alveo-col-md-3 {
+  width: 25%;
+}
+
+.alveo-col-md-9 {
+  width: 75%;
+}
+
+
+
+
+
