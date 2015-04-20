@@ -21,7 +21,20 @@ Then use the template manager to ensure the template is used as the default for 
 
 See the instructions located in the docs folder to  modify this template for additional HubZero sites.
 
-## Module
+## Module - Welcome
+
+The Alveo welcome module is used to show the site introduction and splash image.
+
+To use this module, git export the contents into a directory called mod_alveowelcome 
+and then zip the directory and its contents into the file mod_alveowelcome.
+
+Use the Joomla administrator interface for extension management to upload and install the zip file.
+Any previous versions need to be deleted first.
+Then use the module manager to publish the alveowelcome module in the welcome block of the page at position 2.
+
+This module is currently located in the git branch named "splash_image".
+
+## Module - Footer
 
 The Alveo footer module is used to show the project sponsor (NeCTAR) 
 and collaborators (a number of Australian Universities).
