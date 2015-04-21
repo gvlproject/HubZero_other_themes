@@ -31,7 +31,7 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 
-$this->template = 'mytemplate';
+$this->template = 'Alveo2015';
 
 JHTML::_('behavior.framework', true);
 
