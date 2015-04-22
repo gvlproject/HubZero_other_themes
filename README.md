@@ -50,3 +50,11 @@ Then use the module manager to publish the alveofooter in the footer block of th
 
 Packaged versions of the template and module
 can be downloaded from the distribution directory.
+
+## Known Problems
+
+### 1.
+
+The Alveo Footer module does not display well on the error web page as the the base template for the error page does not load modules properly. Specifically it does not load module style sheets or respect the modules settings such as title display. 
+
+The workaround is to NOT show the Alveo Footer module on the error page, and this can be accomplished by using the Module Assignment with the option "Only on the pages selected" and then slecting all relevant pages.

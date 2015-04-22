@@ -4,7 +4,7 @@ defined('_JEXEC') or die('Restricted access');
 $config = JFactory::getConfig();
 $juser  = JFactory::getUser();
 
-$this->template = 'Alveo2015';
+$this->template = 'alveo2015';
 
 $lang = JFactory::getLanguage();
 $lang->load('tpl_' . $this->template);
@@ -52,20 +52,21 @@ $cls = array(
 		<!--[if IE 9]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie9.css" /><![endif]-->
 		<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie8.css" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie7.css" /><![endif]-->
-	</head>
+    		<link rel="stylesheet" type="text/css" media="screen"  href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/alveo.css" />
+		</head>
 	<body>
 		<?php \Hubzero\Module\Helper::displayModules('notices'); ?>
 		<?php \Hubzero\Module\Helper::displayModules('helppane'); ?>
 
 		<div id="top">
-			<header id="masthead">
-				<div class="inner">
-					<h1>
-						<a href="<?php echo empty($this->baseurl) ? "/" : $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
-							<span><?php echo $config->getValue('config.sitename'); ?></span>
-						</a>
-					</h1>
-
+		  <header id="masthead" role="banner">
+			<div class="inner">
+				<h1 class="brand">
+					<a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
+						<span><?php echo $config->getValue('config.sitename'); ?></span>
+					</a>
+				</h1>
+		
 					<div id="account" role="navigation">
 					<?php if (!$juser->get('guest')) { ?>
 						<ul class="menu <?php echo (!$juser->get('guest')) ? 'loggedin' : 'loggedout'; ?>">

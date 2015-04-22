@@ -1,6 +1,6 @@
 /**
  * @package     hubzero-cms
- * @file        templates/Alveo2015/js/hub.js
+ * @file        templates/alveo2015/js/hub.js
  * @copyright   Copyright 2005-2014 Purdue University. All rights reserved.
  * @license     http://www.gnu.org/licenses/lgpl-3.0.html LGPLv3
  */
@@ -29,7 +29,7 @@ jQuery(document).ready(function(jq){
 	var $ = jq,
 		w = 760,
 		h = 520,
-		templatepath = '/templates/Alveo2015/';
+		templatepath = '/templates/alveo2015/';
 
 	// Set focus on username field for login form
 	if ($('#username').length > 0) {

@@ -14,7 +14,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 $config = JFactory::getConfig();
 
-$this->template = 'Alveo2015';
+$this->template = 'alveo2015';
 
 $browser = new \Hubzero\Browser\Detector();
 $cls = array(
@@ -35,7 +35,8 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . JText::_('Down fo
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> Doesn't validate... -->
 
 		<jdoc:include type="head" />
-
+		
+		<!-- TODO: Do we need an offline version of alveo.css? -->
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/offline.css" />
 	</head>
 	<body>
