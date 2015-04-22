@@ -14,7 +14,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 $config = JFactory::getConfig();
 
-$this->template = 'alveo2015';
+$this->template = 'gvl2015';
 
 $browser = new \Hubzero\Browser\Detector();
 $cls = array(
@@ -36,7 +36,7 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . JText::_('Down fo
 
 		<jdoc:include type="head" />
 		
-		<!-- TODO: Do we need an offline version of alveo.css? -->
+		<!-- TODO: Do we need an offline version of gvl.css? -->
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/offline.css" />
 	</head>
 	<body>

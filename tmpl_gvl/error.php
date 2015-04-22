@@ -4,7 +4,7 @@ defined('_JEXEC') or die('Restricted access');
 $config = JFactory::getConfig();
 $juser  = JFactory::getUser();
 
-$this->template = 'alveo2015';
+$this->template = 'gvl2015';
 
 $lang = JFactory::getLanguage();
 $lang->load('tpl_' . $this->template);
@@ -52,7 +52,7 @@ $cls = array(
 		<!--[if IE 9]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie9.css" /><![endif]-->
 		<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie8.css" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/browser/ie7.css" /><![endif]-->
-    		<link rel="stylesheet" type="text/css" media="screen"  href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/alveo.css" />
+    		<link rel="stylesheet" type="text/css" media="screen"  href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/gvl.css" />
 		</head>
 	<body>
 		<?php \Hubzero\Module\Helper::displayModules('notices'); ?>

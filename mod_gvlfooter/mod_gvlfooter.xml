@@ -11,7 +11,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2</license>
     <description>An Alveo Virtual Laboratory footer displaying acknowledgements etc...</description>
     <files>
-        <filename module="mod_alveofooter">mod_alveofooter.php</filename>
+        <filename module="mod_gvlfooter">mod_gvlfooter.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <folder>tmpl</folder>

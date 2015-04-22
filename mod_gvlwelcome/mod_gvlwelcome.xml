@@ -11,7 +11,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2</license>
     <description>An Alveo Virtual Laboratory welcome displaying introductory message, splash image etc...</description>
     <files>
-        <filename module="mod_alveowelcome">mod_alveowelcome.php</filename>
+        <filename module="mod_gvlwelcome">mod_gvlwelcome.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <folder>tmpl</folder>

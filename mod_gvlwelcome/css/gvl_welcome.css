@@ -1,20 +1,20 @@
 
-#alveo-welcome {
+#gvl-welcome {
 }
 
-#alveo-welcome img {
+#gvl-welcome img {
   vertical-align: middle;
   border: 0;
   padding: 5px 5px 5px 5px;
 }
 
 
-.alveo-heading {
+.gvl-heading {
   width: 50%;
   float: left;
 }
 
-.alveo-heading h1 {
+.gvl-heading h1 {
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 10px;
@@ -22,14 +22,14 @@
   font-weight: 200;
 }
 
-.alveo-heading h2 {
+.gvl-heading h2 {
   font-size: 22px;
   line-height: 30px;
   color: #333;
   font-weight: 300;
 }
 
-.alveo-heading h4 {
+.gvl-heading h4 {
   font-weight: 300;
   font-size: 20px;
   line-height: 25px;
@@ -39,32 +39,32 @@
 
 /* Control the global splash image scaling. */
 /* Individual logos sometimes are tweak-scaled by a width style in the img tag. */
-.alveo-img-wrapper {
+.gvl-img-wrapper {
   width: 50%;
   margin: 0 auto; /* Allow the div to centre in its containing div. */
   text-align: center;
   float: right;
 }
 
-#alveo-welcome a {
+#gvl-welcome a {
   color: rgb(0, 171, 255);
   border-bottom: 1px dotted rgb(0, 171, 255);
   text-shadow: none;
 }
 
-#alveo-welcome a:hover {
+#gvl-welcome a:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
 
-.alveo-row {
+.gvl-row {
   clear: both;
   /* Needed to ensure that first row is not set to zero */
   /* If it is the contents overflow the containing div */
   min-height: 100px; 
 }
 
-.alveo-col {
+.gvl-col {
   text-align: center; 
   float: left;
   position: relative;
@@ -75,23 +75,23 @@
   padding-left: 0px;
 }
 
-.alveo-col-md-2 {
+.gvl-col-md-2 {
  width: 16.666666666666664%;
 }
 
-.alveo-col-md-3 {
+.gvl-col-md-3 {
   width: 25%;
 }
 
-.alveo-col-md-9 {
+.gvl-col-md-9 {
   width: 75%;
 }
 
-.alveo-col-md-6 {
+.gvl-col-md-6 {
   width: 50%;
 }
 
-.alveo-introduction {
+.gvl-introduction {
   text-align: left;
   width: 100%;
 }
