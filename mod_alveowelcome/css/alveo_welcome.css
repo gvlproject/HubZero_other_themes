@@ -48,7 +48,7 @@
 
 #alveo-welcome a {
   color: rgb(0, 171, 255);
-  border-bottom: 1px dotted color: rgb(0, 171, 255);
+  border-bottom: 1px dotted rgb(0, 171, 255);
   text-shadow: none;
 }
 

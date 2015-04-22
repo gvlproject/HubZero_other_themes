@@ -19,7 +19,7 @@
 
 /* Control the global logo image scaling. */
 /* Individual logos sometimes are tweak-scaled by a width style in the img tag. */
-.alveo-img-wrapper {
+.alveo-logo-wrapper {
   width: 70%;
   margin: 0 auto; /* Allow the dive to centre in its containing div. */
   text-align: center;
@@ -27,7 +27,7 @@
 
 #alveo-footer a {
   color: rgb(0, 171, 255);
-  border-bottom: 1px dotted color: rgb(0, 171, 255);
+  border-bottom: 1px dotted rgb(0, 171, 255);
   text-shadow: none;
 }
 
