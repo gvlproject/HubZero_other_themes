@@ -1,8 +1,8 @@
 <?php
 /**
- * Helper class for Alveo Welcome module
+ * Helper class for GVL Welcome module
  * 
- * @package    Alveo
+ * @package    GVL
  * @subpackage Modules
  * @link  http://gvl.edu.au/
  * @license        GNU/GPL, see LICENSE.php
@@ -11,7 +11,7 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  */
-class ModAlveoWelcomeHelper
+class ModGVLWelcomeHelper
 {
     /**
      * Retrieves the welcome content

@@ -1,8 +1,8 @@
 <?php
 /**
- * Helper class for Alveo Footer module
+ * Helper class for GVL Footer module
  * 
- * @package    Alveo
+ * @package    GVL
  * @subpackage Modules
  * @link  http://gvl.edu.au/
  * @license        GNU/GPL, see LICENSE.php
@@ -11,7 +11,7 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  */
-class ModAlveoFooterHelper
+class ModGVLFooterHelper
 {
     /**
      * Retrieves the footer content

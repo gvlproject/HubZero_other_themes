@@ -20,12 +20,12 @@ defined('_JEXEC') or die; ?>
 		  <h2>A Virtual Lab for Human Communication Science</h2>
         </div>
         <div class="gvl-img-wrapper">
-		  <img src="<?php echo JURI::root();?>modules/mod_gvlwelcome/tmpl/images/splash.png" alt="Alveo Splash Image" />
+		  <img src="<?php echo JURI::root();?>modules/mod_gvlwelcome/tmpl/images/splash.png" alt="GVL Splash Image" />
 		</div>
 	    <div class="gvl-row">
 		  <div class="gvl-col-md-6 gvl-col">
 		    <h4 class="gvl-introduction">
-				Alveo provides on-line infrastructure for accessing human communication data sets 
+				GVL provides on-line infrastructure for accessing human communication data sets 
 				(speech, texts, music, video, etc.) 
 				and for using specialised tools for searching, analysing and annotating that data.
 			</h4>

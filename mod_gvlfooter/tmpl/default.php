@@ -24,7 +24,7 @@ defined('_JEXEC') or die; ?>
 		    <div class="gvl-acknowledgement">
 				The University of Western Sydney is proud to be in partnership with, and acknowledges funding from, 
 				the National eResearch Collaboration Tools and Resources (NeCTAR) project 
-				(<a href="http://www.nectar.org.au">http://www.nectar.org.au</a>) to develop Alveo. 
+				(<a href="http://www.nectar.org.au">http://www.nectar.org.au</a>) to develop GVL. 
 				NeCTAR is an Australian Government project conducted as part of the Super Science initiative 
 				and financed by the Education Investment Fund.
 			</div>

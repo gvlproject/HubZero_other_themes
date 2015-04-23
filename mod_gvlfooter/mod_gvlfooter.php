@@ -1,8 +1,8 @@
 <?php
 /**
- * Alveo Footer Module Entry Point
+ * GVL Footer Module Entry Point
  * 
- * @package    Alveo
+ * @package    GVL
  * @subpackage Modules
  * @link http://gvl.edu.au/
  * @license        GNU/GPL, see LICENSE.php
@@ -20,7 +20,7 @@ defined('_JEXEC' ) or die;
 
 // Include the syndicate functions only once
 //require_once dirname(__FILE__) . '/helper.php';
-// $footer = modAlveoFooterHelper::getFooter($params);
+// $footer = modGVLFooterHelper::getFooter($params);
 
 // Load the template to render the HTML.	
 require(JModuleHelper::getLayoutPath('mod_gvlfooter'));
