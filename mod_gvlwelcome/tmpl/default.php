@@ -11,23 +11,18 @@ defined('_JEXEC') or die; ?>
 
 ?>
 
-<!--
--->
-
 <div id="gvl-welcome" class="gvl-welcome">
         <div class="gvl-heading">
-		  <h1>Above and Beyond Speech, Language and Music</h1>
-		  <h2>A Virtual Lab for Human Communication Science</h2>
+		  <h1>Genomics Virtual Lab</h1>
+		  <h2>A virtual laboratory for genomics research and training. </h2>
         </div>
         <div class="gvl-img-wrapper">
-		  <img src="<?php echo JURI::root();?>modules/mod_gvlwelcome/tmpl/images/splash.png" alt="GVL Splash Image" />
+		  <img src="<?php echo JURI::root();?>modules/mod_gvlwelcome/tmpl/images/splash.jpg" alt="GVL Splash Image" />
 		</div>
-	    <div class="gvl-row">
+	    <div class="gvl-row" style="min-height: 1px;">
 		  <div class="gvl-col-md-6 gvl-col">
 		    <h4 class="gvl-introduction">
-				GVL provides on-line infrastructure for accessing human communication data sets 
-				(speech, texts, music, video, etc.) 
-				and for using specialised tools for searching, analysing and annotating that data.
+		    <!-- Placeholder for additional content. -->
 			</h4>
 		  </div>
 	    </div class="gvl-row">

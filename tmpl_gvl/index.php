@@ -77,11 +77,13 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
     <div id="top">
       <header id="masthead" role="banner">
         <div class="inner">
-          <h1 class="brand">
-            <a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
-              <span><?php echo $config->getValue('config.sitename'); ?></span>
-            </a>
-          </h1>
+	          <h1 class="brand">
+	            <a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
+	              <span><?php echo $config->getValue('config.sitename'); ?></span>
+	              </br>
+	              <span class="sub-head">Virtual Laboratory</span>
+	            </a>
+	          </h1>
 
           <div id="mobile-nav" class="show-m">
             <ul>
