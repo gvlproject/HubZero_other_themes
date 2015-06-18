@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>GVL Welcome Slide</name>
+    <version>0.1.0</version>
+	<creationDate>18/06/2015</creationDate>
+    <author>Richard Rothwell</author>
+	<authorEmail>rrothwell@v3.org.au</authorEmail>
+	<authorUrl>http://www.v3.org.au/</authorUrl>
+	<copyright>Copyright June, 2015 by V3 Alliance</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2</license>
+    <description>An Genomics Virtual Laboratory welcome displaying introductory message, slideshow image etc...</description>
+    <files>
+        <filename module="mod_gvlwelcomeslide">mod_gvlwelcomeslide.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>css</folder>
+    </files>
+    <config>
+    </config>
+</extension>
