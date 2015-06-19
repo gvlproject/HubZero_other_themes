@@ -20,11 +20,11 @@
 
 <install type="template" version="1.5">
 	<name>GVL2015</name>
-	<creationDate>23/04/2014</creationDate>
+	<creationDate>23/04/2015</creationDate>
 	<author>Richard Rothwell</author>
 	<authorEmail>rrothwell@v3.org.au</authorEmail>
 	<authorUrl>http://www.v3.org.au/</authorUrl>
-	<version>0.1.0</version>
+	<version>0.1.2</version>
 	<copyright>Copyright 2005-2013 by Purdue Research Foundation, West Lafayette, IN 47906</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2</license>
 	<description>Genomics Virtual Laboratory branding.</description>

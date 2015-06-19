@@ -97,6 +97,14 @@
   width: 100%;
 }
 
+/* Slide show stuff */
+
+/* Prevents slides from flashing */
+#slides {
+  display:none;
+}
+
+
 
 
 
