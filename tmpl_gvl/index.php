@@ -166,7 +166,7 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
             <?php if (!$this->countModules('welcome')) : ?>
               <jdoc:include type="modules" name="breadcrumbs" />
             <?php else: ?>
-              <span class="pathway"><?php echo JText::_('TPL_HUBBASIC_TAGLINE'); ?></span>
+              <span class="pathway"><!--?php echo JText::_('TPL_HUBBASIC_TAGLINE'); ?--></span>
             <?php endif; ?>
           </div><!-- / #trail -->
         </div><!-- / .inner -->
