@@ -205,21 +205,59 @@ a:hover {
     box-shadow: 0 1px 0 #1b383b;
 }
 
- .gvl-button-container {
-    height: 52px
+.well {   /* bootstrap-style well */
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.well.gvl-button-container {
+  min-height: 12em;
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #e3e3e3;
+/*  background-color: #e0f7f5;
+  border: 1px solid #d3eae8; */
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+/*    height: 52px   */
+/*	border-color: #d3eae8;
+	padding 10px;
+	border-style: solid; */
+}
+
+.gvl-button-title {
+	font-size: 40px;
+	color: rgb(0, 117, 132);
+	padding: 5px 0px 20px 0px;
+}
+
+.gvl-message {
+  width: 100%;
+  font-size: 20px;
+  color: rgb(0, 117, 132);
 }
 
 /* Link Styling */
-a.gvl-button {
+.well.gvl-button-container a:link,
+.well.gvl-button-container a:active,
+.well.gvl-button-container a:visited {
     color: rgb(180, 250, 255);
    /*  text-shadow: 0 1px 1px rgb(255, 255, 255); */
     /* text-decoration: none; */
 }
 
 /* Hover Styles */
-a.gvl-button:hover {
-    background: #3d7a80;
-    background: -webkit-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80) );
+a .well.gvl-button-container:hover {
+    background: #e3e3e3;
+/*    background: -webkit-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80) );
     background: -moz-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80) );
     background: -o-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80));
     background: -ms-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80));
@@ -227,17 +265,12 @@ a.gvl-button:hover {
 
     -webkit-box-shadow: 0 1px 0 #1b383b;
     -moz-box-shadow: 0 1px 0 #1b383b;
-    box-shadow: 0 1px 0 #1b383b;
+    box-shadow: 0 1px 0 #1b383b; */
 }
 
 .gvl-para {
    float: none;
-  padding: 20px 20px 10px 20px;
-}
-
-.gvl-message {
-  width: 100%;
-  font-size: 20px;
+   padding: 50px 20px 20px 20px;
 }
 
 .gvl-center {
@@ -249,65 +282,14 @@ a.gvl-button:hover {
 /* Suppress tabs over left, middle and right feature blocks. */
 
 #wrap {
-  border-top: solid 1px rgb(210, 210, 210);
+	border-top: solid 1px rgb(210, 210, 210);
 }
 
 #features .columns:after {
-  display: none;
+	display: none;
 }
 
 #features .columns div:first-child {
-  border-left: none;
-  border-right: none;
+	border-left: none;
+	border-right: none;
 }
-
-/*The following styles are for the Learn page. */
-
-  /* Specific css styles for the learn page header (grey box at the top),
-   the floating menu and the tutorial sections.*/
-  #page-header{
-    background-color:lightgrey;
-    padding:10px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-  }
-  #page-tableofcontents{
-    line-height:30px;
-    background-color:#eeeeee;
-    height: auto;
-    width:200px;
-    float:left;
-    padding:5px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-    /*<!-- position:fixed; --> */
-  }
-  #page-main{
-    width: 80%;
-    float:left;
-    /*padding:10px;*/
-  }
-
-  .tutorial-section{
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-    border-spacing: 10px;
-    padding: 10px;
-
-  }
-
-  /* Some specific css that is refered to by the jQuery javascript that makes
-   the page contents float correctly on scrolling */
-  .fixed{
-    top: 10px;
-    position: fixed;
-  }
-
-  .xpadding-left{
-    padding-left: 227px;
-
-  }
-
-  .oldpadding{
-    padding-left: 15px;
-  }
