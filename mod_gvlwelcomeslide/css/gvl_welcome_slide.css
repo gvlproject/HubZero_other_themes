@@ -102,6 +102,13 @@
 /* Prevents slides from flashing */
 #slides {
   display:none;
+  width: 550px;
+  height: 275px;
+}
+
+#slides > img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 
