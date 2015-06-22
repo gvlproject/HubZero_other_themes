@@ -293,3 +293,7 @@ a .well.gvl-button-container:hover {
 	border-left: none;
 	border-right: none;
 }
+
+#ancillary {
+  background-color: white;
+}
