@@ -23,7 +23,7 @@ body {
   margin-left: 10px;
   width: 250px;
   height: 60px;
-  padding: 1px 10px 1px 110px;
+  padding: 15px 10px 1px 110px;
   /* background: transparent url(../images/logos/gvl-green.png) no-repeat left 0px top 0px; */
   background: transparent url(../images/logos/gvl-green-h70px.png) no-repeat left 0px top 0px;
   display: inline-block;
@@ -38,14 +38,14 @@ body {
 #masthead a,
 a:active,
 a:visited {
-  text-decoration: none;
-  color: #FFF;
-  border-bottom: 1px dotted #98cab1;
+	text-decoration: none;
+	color: #FFF;
+	border-bottom: 1px dotted #98cab1;
 }
 
 a:hover {
-  color: #222;
-  border-bottom: 1px solid #999;
+	color: #222;
+	border-bottom: 1px solid #999;
 }
 
 #masthead h1 {

@@ -80,8 +80,8 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
 	          <h1 class="brand">
 	            <a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
 	              <span><?php echo $config->getValue('config.sitename'); ?></span>
-	              </br>
-	              <span class="sub-head">Virtual Laboratory</span>
+	              <!--/br>
+	              <span class="sub-head">Virtual Laboratory</span-->
 	            </a>
 	          </h1>
 
@@ -108,7 +108,7 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
                       ?>
                       <img src="<?php echo $profile->getPicture(); ?>" alt="<?php echo $juser->get('name'); ?>" class="profile-pic thumb" width="30" height="30" />
                       <a class="account-details" href="<?php echo JRoute::_('index.php?option=com_members&id=' . $juser->get('id')); ?>">
-                        <?php echo stripslashes($juser->get('name')); ?> 
+                        <?php echo stripslashes($juser->get('name')); ?>
                         <span class="account-email"><?php echo $juser->get('email'); ?></span>
                       </a>
                     </div>
