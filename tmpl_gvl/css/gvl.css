@@ -8,7 +8,7 @@
 */
 
 body {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #masthead {
@@ -35,26 +35,27 @@ body {
   font-weight: 200;
 }
 
-#masthead a, 
-a:active, 
+#masthead a,
+a:active,
 a:visited {
-	text-decoration: none;
-	color: #FFF;
-	border-bottom: 1px dotted #98cab1;
+  text-decoration: none;
+  color: #FFF;
+  border-bottom: 1px dotted #98cab1;
 }
 
 a:hover {
-	color: #222;
-	border-bottom: 1px solid #999;
+  color: #222;
+  border-bottom: 1px solid #999;
 }
 
 #masthead h1 {
   font-size: 20px;
   text-transform: none;
+  border-right: none;
 }
 
 #masthead span.sub-head {
- font-size: 12px;	
+ font-size: 12px;
 }
 
 #masthead h1 a:hover {
@@ -83,7 +84,7 @@ a:hover {
 }
 
 /* HubZero logo in welcome block. */
-small.welcome-after, 
+small.welcome-after,
 #welcome:after {
   color: #FFF;
 }
@@ -120,8 +121,8 @@ h6 {
 }
 
 
-a, 
-a:active, 
+a,
+a:active,
 a:visited {
   text-decoration: none;
   color: rgb(0, 171, 255);
@@ -146,11 +147,13 @@ a:hover {
   color: rgb(255, 255, 255);
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  border-right: 1px dashed #ddd;
+  border-right: none;
 }
 
 #account li>a {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #FFFF00;
+  border-left: none;
 }
 
 /* ------------------------------------- */
@@ -177,12 +180,12 @@ a:hover {
     margin: 2px;
     background: rgb(0, 117, 132);
     border: 2px solid rgba(33, 68, 72, 0.59);
-     
+
     /* Text Styles */
     color: white;
     text-align: center;
     font: bold 1.6em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-     
+
     /*  Fancy CSS3 Styles */
    /* Base colour: rgb(0, 117, 132) */
     background: -webkit-linear-gradient(top, rgb(0, 140, 160), rgb(0, 90, 100) );
@@ -190,12 +193,12 @@ a:hover {
     background: -o-linear-gradient(top, rgb(0, 140, 160), rgb(0, 90, 100) );
     background: -ms-linear-gradient(top, rgb(0, 140, 160), rgb(0, 90, 100) );
     background: linear-gradient(top, rgb(0, 140, 160), rgb(0, 90, 100) );
-     
+
     -webkit-border-radius: 50px;
     -khtml-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
-     
+
     -webkit-box-shadow: 0 1px 0 #1b383b;
     -moz-box-shadow: 0 1px 0 #1b383b;
     box-shadow: 0 1px 0 #1b383b;
@@ -206,7 +209,7 @@ a:hover {
 }
 
 /* Link Styling */
-a.gvl-button {     
+a.gvl-button {
     color: rgb(180, 250, 255);
    /*  text-shadow: 0 1px 1px rgb(255, 255, 255); */
     /* text-decoration: none; */
@@ -220,7 +223,7 @@ a.gvl-button:hover {
     background: -o-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80));
     background: -ms-linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80));
     background: linear-gradient(top, rgb(0, 117, 132), rgb(0, 70, 80));
- 
+
     -webkit-box-shadow: 0 1px 0 #1b383b;
     -moz-box-shadow: 0 1px 0 #1b383b;
     box-shadow: 0 1px 0 #1b383b;
@@ -245,17 +248,65 @@ a.gvl-button:hover {
 /* Suppress tabs over left, middle and right feature blocks. */
 
 #wrap {
-	border-top: solid 1px rgb(210, 210, 210);
+  border-top: solid 1px rgb(210, 210, 210);
 }
 
 #features .columns:after {
-	display: none;
+  display: none;
 }
 
 #features .columns div:first-child {
-	border-left: none;
-	border-right: none;
+  border-left: none;
+  border-right: none;
 }
 
+/*The following styles are for the Learn page. */
 
+  /* Specific css styles for the learn page header (grey box at the top),
+   the floating menu and the tutorial sections.*/
+  #page-header{
+    background-color:lightgrey;
+    padding:10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  }
+  #page-tableofcontents{
+    line-height:30px;
+    background-color:#eeeeee;
+    height: auto;
+    width:200px;
+    float:left;
+    padding:5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    /*<!-- position:fixed; --> */
+  }
+  #page-main{
+    width: 80%;
+    float:left;
+    /*padding:10px;*/
+  }
 
+  .tutorial-section{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+
+  }
+
+  /* Some specific css that is refered to by the jQuery javascript that makes
+   the page contents float correctly on scrolling */
+  .fixed{
+    top: 10px;
+    position: fixed;
+  }
+
+  .xpadding-left{
+    padding-left: 227px;
+
+  }
+
+  .oldpadding{
+    padding-left: 15px;
+  }
