@@ -9,12 +9,12 @@ JHTML::stylesheet('gvl_welcome_slide.css', 'modules/mod_gvlwelcomeslide/css/');
 $javascript = <<<EOD
     $(function(){
       $("#slides").slidesjs({
-		width: 399,
-		height: 300,
+		width: 550,
+		height: 275,
 		play: {
 			active: false,
 			effect: "slide",
-			interval: 5000,
+			interval: 10000,
 			auto: true,
 			swap: true,
 			pauseOnHover: true,
@@ -46,13 +46,9 @@ $document->addScriptDeclaration($javascript);
 	  <h1>Genomics Virtual Lab</h1>
 	  <h2>A virtual laboratory for genomics research and training. </h2>
 	</div>
-	<div class="gvl-img-wrapper">
 		<div id="slides">
-			<img src="<?php echo JURI::root();?>modules/mod_gvlwelcomeslide/tmpl/images/splash0.jpg" alt="GVL Splash Image" />
-			<img src="<?php echo JURI::root();?>modules/mod_gvlwelcomeslide/tmpl/images/splash1.jpg" alt="GVL Splash Image" />
-			<img src="<?php echo JURI::root();?>modules/mod_gvlwelcomeslide/tmpl/images/splash2.jpg" alt="GVL Splash Image" />
-			<img src="<?php echo JURI::root();?>modules/mod_gvlwelcomeslide/tmpl/images/splash3.jpg" alt="GVL Splash Image" />
-			<img src="<?php echo JURI::root();?>modules/mod_gvlwelcomeslide/tmpl/images/splash4.jpg" alt="GVL Splash Image" />
+			<img src="/site/media/images/launcher_screenshot.png" alt="GVL Launcher" />
+			<img src="/site/media/images/rstudio_screenshot.png" alt="RStudio in the cloud" />
 		</div>
 	</div>
 	<div class="gvl-row" style="min-height: 1px;">

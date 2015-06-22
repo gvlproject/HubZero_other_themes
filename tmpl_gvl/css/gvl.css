@@ -294,6 +294,128 @@ a .well.gvl-button-container:hover {
 	border-right: none;
 }
 
+/*The following styles are for the Learn page. */
+
+  /* Specific css styles for the learn page header (grey box at the top),
+   the floating menu and the tutorial sections.*/
+  #page-header{
+    background-color:lightgrey;
+    padding:10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  }
+  #page-tableofcontents{
+    line-height:30px;
+    background-color:#eeeeee;
+    height: auto;
+    width:200px;
+    float:left;
+    padding:5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    /*<!-- position:fixed; --> */
+  }
+  #page-main{
+    width: 80%;
+    float:left;
+    /*padding:10px;*/
+  }
+
+  .tutorial-section{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    border-spacing: 10px;
+    padding: 10px;
+
+  }
+
+  /* Some specific css that is refered to by the jQuery javascript that makes
+   the page contents float correctly on scrolling */
+  .fixed{
+    top: 10px;
+    position: fixed;
+  }
+
+  .xpadding-left{
+    padding-left: 227px;
+
+  }
+
+  .oldpadding{
+    padding-left: 15px;
+  }
+
+/*footer override stuff */
+/* FOOTER */
+
+.footer {
+  background: AliceBlue;
+  height: 130px;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #DDDDDD;
+}
+.footer img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  max-width: 200px;
+  max-height: 100px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* Disable grayscale on hover */
+.footer img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.frame {
+    height: 130px; /* equals frame height */
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer p {
+  margin: 0;
+}
+.footer h3 {
+  border-bottom: 1px solid #BAC1C8;
+  color: #54697E;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 10px;
+  padding: 5px 0 10px;
+  text-transform: uppercase;
+}
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 5px;
+  color: #7F8C8D;
+}
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+}
+.footer a {
+  color: #78828D
+}
+
 #ancillary {
   background-color: white;
 }
