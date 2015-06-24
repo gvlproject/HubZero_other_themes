@@ -278,6 +278,28 @@ a .well.gvl-button-container:hover {
   margin-right: auto;
 }
 
+#gvl-launch-button,
+#gvl-launch-button:active,
+#gvl-launch-button:visited {
+	font-size: 20px;
+	width: 4em;
+	padding: 2em;
+	border-radius: .5em;
+	background: rgb(0, 117, 132);
+	border: 1px solid rgb(0, 117, 132);
+	text-align: center;
+	color: white;
+	display: block;
+	margin: auto;
+}
+
+#gvl-launch-button:hover {
+	background: rgb(20, 137, 152);
+	border: 1px solid rgb(20, 137, 152);
+	color: white;
+}
+
+
 /* ------------------------------------- */
 /* Suppress tabs over left, middle and right feature blocks. */
 
