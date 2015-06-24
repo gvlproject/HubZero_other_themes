@@ -14,7 +14,7 @@ $javascript = <<<EOD
 		play: {
 			active: false,
 			effect: "slide",
-			interval: 10000,
+			interval: 8000,
 			auto: true,
 			swap: true,
 			pauseOnHover: true,
@@ -28,6 +28,22 @@ $javascript = <<<EOD
 			active: false,
 			effect: "slide"
 		}
+      });
+      $(document).ready(function() {
+        if ($(window).width() < 1000) {
+          $('#slides').hide();
+        }
+        else {
+          $('#slides').show();
+        }
+      });
+      $(window).resize(function() {
+        if ($(window).width() < 1000) {
+          $('#slides').hide();
+        }
+        else {
+          $('#slides').show();
+        }
       });
     });
 EOD;
@@ -47,8 +63,12 @@ $document->addScriptDeclaration($javascript);
 	  <h2>A virtual laboratory for genomics research and training. </h2>
 	</div>
 		<div id="slides">
-			<img src="/site/media/images/launcher_screenshot.png" alt="GVL Launcher" />
-			<img src="/site/media/images/rstudio_screenshot.png" alt="RStudio in the cloud" />
+			<img src="/site/media/images/slide_galaxy.png" alt="Run Galaxy in the cloud" />
+			<img src="/site/media/images/slide_ipython.png" alt="Run iPython in the cloud" />
+			<img src="/site/media/images/slide_r.png" alt="Run RStudio in the cloud" />
+			<img src="/site/media/images/slide_launcher.png" alt="Launch private instances" />
+			<img src="/site/media/images/slide_services.png" alt="Intallable services" />
+			<img src="/site/media/images/slide_terminal.png" alt="Terminal access" />
 		</div>
 	</div>
 	<div class="gvl-row" style="min-height: 1px;">
