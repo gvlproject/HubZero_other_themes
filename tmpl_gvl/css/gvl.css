@@ -335,6 +335,7 @@ a .well.gvl-button-container:hover {
     padding:5px;
     border: 1px solid lightgrey;
     border-radius: 10px;
+		margin-top: 10px;
     /*<!-- position:fixed; --> */
   }
   #page-main{
@@ -348,7 +349,7 @@ a .well.gvl-button-container:hover {
     border-radius: 10px;
     border-spacing: 10px;
     padding: 10px;
-
+		margin: 10px 0px 0px 0px;
   }
 
   /* Some specific css that is refered to by the jQuery javascript that makes
